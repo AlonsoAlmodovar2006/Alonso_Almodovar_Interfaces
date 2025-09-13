@@ -1,0 +1,62 @@
+.datos, th {    padding: 0.25rem 0.75rem;
+}
+
+#miTabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #00889f;
+    color: white;
+}
+
+.btnsTabla {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.9375rem 1.5625rem;
+    border-radius: 0.3125rem;
+}
+
+#btnEnviar {
+    padding: 0.625rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    background-color: #22c55e;
+    font-size: 1.75rem;
+}
+
+#btnEnviar:hover {
+    background-color: #16a34a;
+}
+
+button[name="btnEditar"] {
+    background-color: #facc15;
+    font-size: 1.125rem;
+}
+
+button[name="btnEliminar"] {
+    background-color: #ef4444;
+    font-size: 1.125rem;
+}
+
+button[name="btnEliminar"]:hover {
+    background-color: #dc2626;
+}
+
+button[name="btnEditar"]:hover {
+    background-color: #eab308;
+}
+
+header input {
+    font-size: 2rem;
+    padding: 1.5rem 5rem;
+    width: 30%;
+}
+
+header select {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+}

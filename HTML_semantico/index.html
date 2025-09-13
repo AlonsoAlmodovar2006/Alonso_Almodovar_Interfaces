@@ -2,15 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: "Open Sans", sans-serif;
+            line-height: 3;
+            font-size: 1.75rem;
+        }
+
+        header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 1.5rem;
+            padding: 4rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            box-sizing: border-box;
+        }
+
+        footer {
+            height: 3.5rem;
+            position: fixed;
+            bottom: 0;
+            padding-bottom: 2rem;
+            color: black;
+            width: 99%;
+            text-align: right;
+        }
+
+        table {
+            display: table;
+            width: 70%;
+            border-collapse: collapse;
+            box-sizing: border-box;
+            text-indent: 0;
+            text-align: center;
+        }
+
+        main {
+            margin-left: 13.56rem;
+            margin-top: 14rem;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <input type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Dirección MAC">
+    <header class="container" style="margin: auto">
+        <input type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Dirección MAC" />
         <select name="selectMAC" id="selectMAC">
             <option value="0" disabled selected>Elige una clase</option>
             <option value="DAW1">1º DAW</option>
@@ -26,32 +70,41 @@
                 <tr>
                     <th>Dirección MAC</th>
                     <th>Clase</th>
+                    <th>Opciones</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th>74:56:3C:59:E1:1D</th>
-                    <th>1º DAW</th>
-                    <th><button>Editar</button></th>
-                    <th><button>Eliminar</button></th>
+                    <td class="datos">74:56:3C:59:E1:1D</td>
+                    <td class="datos">1º DAW</td>
+                    <td>
+                        <button class="btnsTabla" name="btnEditar">Editar</button>
+                        <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    </td>
                 </tr>
                 <tr>
-                    <th>74:56:3C:59:EF:4A</th>
-                    <th>1º DAW</th>
-                    <th><button>Editar</button></th>
-                    <th><button>Eliminar</button></th>
+                    <td class="datos">74:56:3C:59:EF:4A</td>
+                    <td class="datos">1º DAW</td>
+                    <td>
+                        <button class="btnsTabla" name="btnEditar">Editar</button>
+                        <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    </td>
                 </tr>
                 <tr>
-                    <th>74:56:3C:59:EC:22</th>
-                    <th>1º DAM</th>
-                    <th><button name="btnEditar">Editar</button></th>
-                    <th><button name="btnEliminar">Eliminar</button></th>
+                    <td class="datos">74:56:3C:59:EC:22</td>
+                    <td class="datos">1º DAM</td>
+                    <td>
+                        <button class="btnsTabla" name="btnEditar">Editar</button>
+                        <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    </td>
                 </tr>
                 <tr>
-                    <th>74:56:3C:59:E1:10</th>
-                    <th>2º DAW</th>
-                    <th><button name="btnEditar">Editar</button></th>
-                    <th><button name="btnEliminar">Eliminar</button></th>
+                    <td class="datos">74:56:3C:59:E1:10</td>
+                    <td class="datos">2º DAW</td>
+                    <td>
+                        <button class="btnsTabla" name="btnEditar">Editar</button>
+                        <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
