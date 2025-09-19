@@ -1,4 +1,48 @@
-.datos, th {    
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 3;
+    font-size: 1.75rem;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1.5rem;
+    padding: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 3.5rem;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 2rem;
+    color: black;
+    width: 99%;
+    text-align: right;
+}
+
+table {
+    display: table;
+    width: 70%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: 0;
+    text-align: center;
+}
+
+main {
+    margin-left: 13.56rem;
+    margin-top: 14rem;
+}
+
+.datos,
+th {
     padding: 0.25rem 0.75rem;
 }
 
