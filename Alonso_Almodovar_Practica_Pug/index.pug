@@ -3,49 +3,52 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-        link(rel="stylesheet", href=".scss.css")
+        title Formulario de MACs 2.0
+        link(rel="stylesheet", href="estilos.css")
     body 
-        header(class="container")
-            input(type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC")
-            select(name="selectMAC" id="selectMAC")
-                option(value="0" disabled selected) Elige una clase
-                option(value="DAW1") 1º DAW
-                option(value="DAW2") 2º DAW
-                option(value="DAM1") 1º DAM
-                option(value="x" disabled) ...
-            button(id="btnEnviar") Enviar
-        main 
-            table(id="miTabla")
-                thead 
-                    tr 
-                        th Dirección MAC
-                        th Clase
-                        th Opciones
-                tbody
-                    tr 
-                        td(class="datos") 74:56:3C:59:E1:1D
-                        td(class="datos") 1º DAW
-                        td
-                            button(class="btnsTabla" name="btnEditar") Editar
-                            button(class="btnsTabla" name="btnEliminar") Eliminar
-                    tr
-                        td(class="datos") 74:56:3C:59:EF:4A
-                        td(class="datos") 1º DAW
-                        td
-                            button(class="btnsTabla" name="btnEditar") Editar
-                            button(class="btnsTabla" name="btnEliminar") Eliminar
-                    tr
-                        td(class="datos") 74:56:3C:59:EC:22
-                        td(class="datos") 1º DAM
-                        td
-                            button(class="btnsTabla" name="btnEditar") Editar
-                            button(class="btnsTabla" name="btnEliminar") Eliminar
-                    tr
-                        td(class="datos") 74:56:3C:59:E1:10
-                        td(class="datos") 2º DAW
-                        td
-                            button(class="btnsTabla" name="btnEditar") Editar
-                            button(class="btnsTabla" name="btnEliminar") Eliminar
+        header
+            p Formulario de MACs IES GP
+        main
+            section(name="selectores")
+                input(type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC")
+                select(name="selectMAC" id="selectMAC")
+                    option(value="0" disabled selected) Elige una clase
+                    option(value="DAW1") 1º DAW
+                    option(value="DAW2") 2º DAW
+                    option(value="DAM1") 1º DAM
+                    option(value="x" disabled) ...
+                button(id="btnEnviar") Enviar
+            section
+                table(id="miTabla")
+                    thead 
+                        tr 
+                            th Dirección MAC
+                            th Clase
+                            th Opciones
+                    tbody
+                        tr 
+                            td(class="datos") 74:56:3C:59:E1:1D
+                            td(class="datos") 1º DAW
+                            td
+                                button(class="btnsTabla" name="btnEditar") Editar
+                                button(class="btnsTabla" name="btnEliminar") Eliminar
+                        tr
+                            td(class="datos") 74:56:3C:59:EF:4A
+                            td(class="datos") 1º DAW
+                            td
+                                button(class="btnsTabla" name="btnEditar") Editar
+                                button(class="btnsTabla" name="btnEliminar") Eliminar
+                        tr
+                            td(class="datos") 74:56:3C:59:EC:22
+                            td(class="datos") 1º DAM
+                            td
+                                button(class="btnsTabla" name="btnEditar") Editar
+                                button(class="btnsTabla" name="btnEliminar") Eliminar
+                        tr
+                            td(class="datos") 74:56:3C:59:E1:10
+                            td(class="datos") 2º DAW
+                            td
+                                button(class="btnsTabla" name="btnEditar") Editar
+                                button(class="btnsTabla" name="btnEliminar") Eliminar
         footer
-            p Alonso Almodóvar Delgado - Diseño de Interfaces
+            p Alonso Almodóvar - Diseño de Interfaces

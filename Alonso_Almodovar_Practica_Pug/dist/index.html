@@ -3,68 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=".scss.css">
+    <title>Formulario de MACs 2.0</title>
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body> 
-    <header class="container">
-      <input type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC">
-      <select name="selectMAC" id="selectMAC">
-        <option value="0" disabled selected>Elige una clase</option>
-        <option value="DAW1">1º DAW</option>
-        <option value="DAW2">2º DAW</option>
-        <option value="DAM1">1º DAM</option>
-        <option value="x" disabled>...</option>
-      </select>
-      <button id="btnEnviar">Enviar</button>
+    <header>
+      <p>Formulario de MACs IES GP</p>
     </header>
-    <main> 
-      <table id="miTabla">
-        <thead> 
-          <tr> 
-            <th>Dirección MAC</th>
-            <th>Clase</th>
-            <th>Opciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr> 
-            <td class="datos">74:56:3C:59:E1:1D</td>
-            <td class="datos">1º DAW</td>
-            <td>
-              <button class="btnsTabla" name="btnEditar">Editar</button>
-              <button class="btnsTabla" name="btnEliminar">Eliminar</button>
-            </td>
-          </tr>
-          <tr>
-            <td class="datos">74:56:3C:59:EF:4A</td>
-            <td class="datos">1º DAW</td>
-            <td>
-              <button class="btnsTabla" name="btnEditar">Editar</button>
-              <button class="btnsTabla" name="btnEliminar">Eliminar</button>
-            </td>
-          </tr>
-          <tr>
-            <td class="datos">74:56:3C:59:EC:22</td>
-            <td class="datos">1º DAM</td>
-            <td>
-              <button class="btnsTabla" name="btnEditar">Editar</button>
-              <button class="btnsTabla" name="btnEliminar">Eliminar</button>
-            </td>
-          </tr>
-          <tr>
-            <td class="datos">74:56:3C:59:E1:10</td>
-            <td class="datos">2º DAW</td>
-            <td>
-              <button class="btnsTabla" name="btnEditar">Editar</button>
-              <button class="btnsTabla" name="btnEliminar">Eliminar</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <main>
+      <section name="selectores">
+        <input type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC">
+        <select name="selectMAC" id="selectMAC">
+          <option value="0" disabled selected>Elige una clase</option>
+          <option value="DAW1">1º DAW</option>
+          <option value="DAW2">2º DAW</option>
+          <option value="DAM1">1º DAM</option>
+          <option value="x" disabled>...</option>
+        </select>
+        <button id="btnEnviar">Enviar</button>
+      </section>
+      <section>
+        <table id="miTabla">
+          <thead> 
+            <tr> 
+              <th>Dirección MAC</th>
+              <th>Clase</th>
+              <th>Opciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr> 
+              <td class="datos">74:56:3C:59:E1:1D</td>
+              <td class="datos">1º DAW</td>
+              <td>
+                <button class="btnsTabla" name="btnEditar">Editar</button>
+                <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="datos">74:56:3C:59:EF:4A</td>
+              <td class="datos">1º DAW</td>
+              <td>
+                <button class="btnsTabla" name="btnEditar">Editar</button>
+                <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="datos">74:56:3C:59:EC:22</td>
+              <td class="datos">1º DAM</td>
+              <td>
+                <button class="btnsTabla" name="btnEditar">Editar</button>
+                <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="datos">74:56:3C:59:E1:10</td>
+              <td class="datos">2º DAW</td>
+              <td>
+                <button class="btnsTabla" name="btnEditar">Editar</button>
+                <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
     <footer>
-      <p>Alonso Almodóvar Delgado - Diseño de Interfaces</p>
+      <p>Alonso Almodóvar - Diseño de Interfaces</p>
     </footer>
   </body>
 </html>
