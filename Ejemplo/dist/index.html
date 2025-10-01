@@ -7,15 +7,15 @@
     <title>Formulario de MACs IES GP</title>
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <p>Formulario de MACs IES GP</p>
     </header>
-    <main>
+    <main class="main">
         <p>Hola! Lo he hecho con pug</p>
-        <section name="selectores">
-            <input type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC" />
-            <select name="selectMAC" id="selectMAC">
+        <section class="section__form">
+            <input class="form__input" type="text" name="textoMAC" placeholder="Escribe una Direccion MAC" />
+            <select class="form__select" name="selectMAC">
                 <option value="0" disabled="disabled" selected="selected">
                     Elige una clase
                 </option>
@@ -24,55 +24,71 @@
                 <option value="DAM1">1º DAM</option>
                 <option value="x" disabled="disabled">...</option>
             </select>
-            <button id="btnEnviar">Enviar</button>
+            <button class="form__button">Enviar</button>
         </section>
         <section>
-            <table id="miTabla">
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Dirección MAC</th>
-                        <th>Clase</th>
-                        <th>Opciones</th>
+                        <th class="table__th">Dirección MAC</th>
+                        <th class="table__th">Clase</th>
+                        <th class="table__th">Opciones</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td class="datos">74:56:3C:59:E1:1D</td>
-                        <td class="datos">1º DAW</td>
-                        <td>
-                            <button class="btnsTabla" name="btnEditar">Editar</button>
-                            <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    <tr class="table__tr">
+                        <td class="table__td">74:56:3C:59:E1:1D</td>
+                        <td class="table__td">1º DAW</td>
+                        <td class="table__td">
+                            <button class="table__button table__buttonEditar">
+                                Editar
+                            </button>
+                            <button class="table__button table__buttonEliminar">
+                                Eliminar
+                            </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="datos">74:56:3C:59:EF:4A</td>
-                        <td class="datos">1º DAW</td>
-                        <td>
-                            <button class="btnsTabla" name="btnEditar">Editar</button>
-                            <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    <tr class="table__tr">
+                        <td class="table__td">74:56:3C:59:EF:4A</td>
+                        <td class="table__td">1º DAW</td>
+                        <td class="table__td">
+                            <button class="table__button table__buttonEditar">
+                                Editar
+                            </button>
+                            <button class="table__button table__buttonEliminar">
+                                Eliminar
+                            </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="datos">74:56:3C:59:EC:22</td>
-                        <td class="datos">1º DAM</td>
-                        <td>
-                            <button class="btnsTabla" name="btnEditar">Editar</button>
-                            <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    <tr class="table__tr">
+                        <td class="table__td">74:56:3C:59:EC:22</td>
+                        <td class="table__td">1º DAM</td>
+                        <td class="table__td">
+                            <button class="table__button table__buttonEditar">
+                                Editar
+                            </button>
+                            <button class="table__button table__buttonEliminar">
+                                Eliminar
+                            </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="datos">74:56:3C:59:E1:10</td>
-                        <td class="datos">2º DAW</td>
-                        <td>
-                            <button class="btnsTabla" name="btnEditar">Editar</button>
-                            <button class="btnsTabla" name="btnEliminar">Eliminar</button>
+                    <tr class="table__tr">
+                        <td class="table__td">74:56:3C:59:E1:10</td>
+                        <td class="table__td">2º DAW</td>
+                        <td class="table__td">
+                            <button class="table__button table__buttonEditar">
+                                Editar
+                            </button>
+                            <button class="table__button table__buttonEliminar">
+                                Eliminar
+                            </button>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Alonso Almodóvar - Diseño de Interfaces</p>
     </footer>
 </body>

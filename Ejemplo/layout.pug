@@ -1,11 +1,11 @@
 block content 
     p Hola! Lo he hecho con pug
-    section(name="selectores")
-        input(type="text" name="textoMAC" id="textoMAC" placeholder="Escribe una Direccion MAC")
-        select(name="selectMAC" id="selectMAC")
+    section.section__form
+        input.form__input(type="text" name="textoMAC" placeholder="Escribe una Direccion MAC")
+        select.form__select(name="selectMAC")
             option(value="0" disabled selected) Elige una clase
             option(value="DAW1") 1º DAW
             option(value="DAW2") 2º DAW
             option(value="DAM1") 1º DAM
             option(value="x" disabled) ...
-        button(id="btnEnviar") Enviar
+        button.form__button Enviar
