@@ -1,0 +1,122 @@
+body {
+  font-family: "Arial", "sans-serif";
+  font-size: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #00889f;
+  color: white;
+  padding: 0.9rem 0;
+}
+
+main {
+  flex: 1;
+  max-width: 56.25rem;
+  margin: 1.25rem auto;
+  padding: 0 1.25rem;
+}
+
+section[name=selectores] {
+  background: white;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.313rem;
+  text-align: center;
+}
+section[name=selectores] input {
+  font-size: 2rem;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  border: 0.125rem solid #ddd;
+  border-radius: 0.25rem;
+  width: 25rem;
+}
+section[name=selectores] select {
+  font-size: 1.5rem;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  border: 0.125rem solid #ddd;
+  border-radius: 0.25rem;
+}
+section[name=selectores] #btnEnviar {
+  color: white;
+  border: none;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  background-color: #22c55e;
+  font-size: 1.75rem;
+  padding: 0.75rem 1.563rem;
+  margin: 0.625rem;
+}
+
+section[name=selectores] #btnEnviar:hover {
+  background-color: #16a34a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 0.313rem;
+  overflow: hidden;
+}
+table th {
+  background-color: #00889f;
+  color: white;
+  padding: 0.938rem;
+  text-align: center;
+}
+table td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 0.063rem solid #eee;
+}
+
+#miTabla tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btnsTabla {
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.938rem;
+  border-radius: 0.25rem;
+  margin: 0 0.188rem;
+  font-weight: bold;
+}
+
+button[name=btnEditar] {
+  background-color: #facc15;
+  font-size: 1.125rem;
+}
+
+button[name=btnEditar]:hover {
+  background-color: #eab308;
+}
+
+button[name=btnEliminar] {
+  background-color: #ef4444;
+  font-size: 1.125rem;
+}
+
+button[name=btnEliminar]:hover {
+  background-color: #dc2626;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.9rem;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
