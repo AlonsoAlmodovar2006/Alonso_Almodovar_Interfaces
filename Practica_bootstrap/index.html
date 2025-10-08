@@ -14,76 +14,83 @@
     <header class="navbar custom-header justify-content-center mb-lg-5">
         <p class="navbar-brand text-white m-lg-3 fs-1">Formulario de MACs IES GP</p>
     </header>
-    <main>
-        <section name="selectores" class="row g-3 justify-content-center mt-5 mb-lg-5">
-            <div class="col-auto">
-                <input type="text" class="form-control" name="textoMAC" id="textoMAC"
-                    placeholder="Escribe una Direccion MAC" />
+    <main class="container-fluid">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <section name="selectores" class="row p-1">
+                        <div class="col-lg-7 ">
+                            <input type="text" class="form-control" name="textoMAC" id="textoMAC"
+                                placeholder="Escribe una Direccion MAC" />
+                        </div>
+                        <div class="col-lg-3 ">
+                            <select class="form-select" id="selectMAC">
+                                <option value="0" disabled selected>Elige una clase</option>
+                                <option value="DAW1">1º DAW</option>
+                                <option value="DAW2">2º DAW</option>
+                                <option value="DAM1">1º DAM</option>
+                                <option value="x" disabled>...</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 ">
+                            <button class="btn btn-success">Enviar</button>
+                        </div>
+                    </section>
+                </div>
             </div>
-            <div class="col-auto">
-                <select class="form-select" id="selectMAC">
-                    <option value="0" disabled selected>Elige una clase</option>
-                    <option value="DAW1">1º DAW</option>
-                    <option value="DAW2">2º DAW</option>
-                    <option value="DAM1">1º DAM</option>
-                    <option value="x" disabled>...</option>
-                </select>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <table class="table table-striped mx-auto">
+                        <thead class="custom-thead">
+                            <tr>
+                                <th scope="col" class="text-white fs-4">#</th>
+                                <th scope="col" class="text-white fs-4">Dirección MAC</th>
+                                <th scope="col" class="text-white fs-4">Clase</th>
+                                <th scope="col" class="text-white fs-4">Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row" class="fs-4">1</td>
+                                <td class="fs-4">74:56:3C:59:E1:1D</td>
+                                <td class="fs-4">1º DAW</td>
+                                <td>
+                                    <button class="btn btn-warning">Editar</button>
+                                    <button class="btn btn-danger">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fs-4" scope="row">2</td>
+                                <td class="fs-4">74:56:3C:59:EF:4A</td>
+                                <td class="fs-4">1º DAW</td>
+                                <td>
+                                    <button class="btn btn-warning">Editar</button>
+                                    <button class="btn btn-danger">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fs-4" scope="row">3</td>
+                                <td class="fs-4">74:56:3C:59:EC:22</td>
+                                <td class="fs-4">1º DAM</td>
+                                <td>
+                                    <button class="btn btn-warning">Editar</button>
+                                    <button class="btn btn-danger">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fs-4" scope="row">4</td>
+                                <td class="fs-4">74:56:3C:59:E1:10</td>
+                                <td class="fs-4">2º DAW</td>
+                                <td>
+                                    <button class="btn btn-warning">Editar</button>
+                                    <button class="btn btn-danger">Eliminar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div class="col-auto">
-                <button class="btn btn-success">Enviar</button>
-            </div>
-        </section>
-        <section>
-            <div class="container my-5">
-                <table class="table table-striped w-50 mx-auto">
-                    <thead class="custom-thead">
-                        <tr>
-                            <th scope="col" class="text-white fs-4">#</th>
-                            <th scope="col" class="text-white fs-4">Dirección MAC</th>
-                            <th scope="col" class="text-white fs-4">Clase</th>
-                            <th scope="col" class="text-white fs-4">Opciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td scope="row" class="fs-4">1</td>
-                            <td class="fs-4">74:56:3C:59:E1:1D</td>
-                            <td class="fs-4">1º DAW</td>
-                            <td>
-                                <button class="btn btn-warning">Editar</button>
-                                <button class="btn btn-danger">Eliminar</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fs-4" scope="row">2</td>
-                            <td class="fs-4">74:56:3C:59:EF:4A</td>
-                            <td class="fs-4">1º DAW</td>
-                            <td>
-                                <button class="btn btn-warning">Editar</button>
-                                <button class="btn btn-danger">Eliminar</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fs-4" scope="row">3</td>
-                            <td class="fs-4">74:56:3C:59:EC:22</td>
-                            <td class="fs-4">1º DAM</td>
-                            <td>
-                                <button class="btn btn-warning">Editar</button>
-                                <button class="btn btn-danger">Eliminar</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fs-4" scope="row">4</td>
-                            <td class="fs-4">74:56:3C:59:E1:10</td>
-                            <td class="fs-4">2º DAW</td>
-                            <td>
-                                <button class="btn btn-warning">Editar</button>
-                                <button class="btn btn-danger">Eliminar</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        </div>
         </section>
     </main>
     <footer class="navbar bg-dark justify-content-center fixed-bottom">
