@@ -1,0 +1,43 @@
+.d-flex.flex-column.flex-shrink-0.p-3.text-bg-dark(style="min-height: 100vh;")
+    a.d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.text-white.text-decoration-none(href="/")
+        svg.bi.pe-none.me-2(width="40" height="32" aria-hidden="true")
+            use(xlink:href="#bootstrap")
+        span.fs-4 Sidebar
+    hr
+    ul.nav.nav-pills.flex-column.mb-auto
+        li.nav-item
+            a.nav-link.active(href="#" aria-current="page")
+                i.bi.bi-house.pe-none.me-2
+                | Home
+        li
+            a.nav-link.text-white(href="#")
+                i.bi.bi-speedometer2.pe-none.me-2
+                | Dashboard
+        li
+            a.nav-link.text-white(href="#")
+                i.bi.bi-calendar2-date.pe-none.me-2
+                | Orders
+        li
+            a.nav-link.text-white(href="#")
+                i.bi.bi-grid.pe-none.me-2
+                | Products
+        li
+            a.nav-link.text-white(href="#")
+                i.bi.bi-person-circle.pe-none.me-2
+                | Customers
+    hr
+    .dropdown
+        a.d-flex.align-items-center.text-white.text-decoration-none.dropdown-toggle(href="#" data-bs-toggle="dropdown" aria-expanded="false")
+            img.rounded-circle.me-2(src="https://logodownload.org/wp-content/uploads/2023/05/real-betis-logo-0.png" alt="" width="32" height="32")
+            strong Alonso
+        ul.dropdown-menu.dropdown-menu-dark.text-small.shadow
+            li
+                a.dropdown-item(href="#") New project...
+            li
+                a.dropdown-item(href="#") Settings
+            li
+                a.dropdown-item(href="#") Profile
+            li
+                hr.dropdown-divider
+            li
+                a.dropdown-item(href="#") Sign out
