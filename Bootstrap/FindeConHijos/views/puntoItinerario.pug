@@ -12,30 +12,15 @@ html(lang="en")
         header.fixed-top.d-flex.flex-wrap.justify-content-center.py-2.py-md-3.border-bottom.bg-primary.shadow-sm
             include icons/location.pug
             include components/header.pug
-        main(style="padding-top: 6.25rem; padding-bottom: 7.5rem;")
+        main.pt-5.mt-5
             .container
-                .row.g-3.g-md-4
-                    include components/imgDescripcion.pug
-                    include components/imgDescripcion.pug
-                    include components/imgDescripcion.pug 
-                    include components/imgDescripcion.pug
-                    include components/imgDescripcion.pug
-                    include components/imgDescripcion.pug 
-                    include components/imgDescripcion.pug
-                    include components/imgDescripcion.pug 
-        footer.fixed-bottom.bg-white.shadow-sm
-            .container
-                .row 
-                    .col-12.text-center.py-2.py-md-3
-                        .d-inline-flex.gap-1.gap-md-2
-                            .text-warning.fs-3.fs-md-2
-                                i.bi.bi-star-fill
-                            .text-warning.fs-3.fs-md-2
-                                i.bi.bi-star-fill
-                            .text-warning.fs-3.fs-md-2
-                                i.bi.bi-star-fill 
-                            .text-warning.fs-3.fs-md-2
-                                i.bi.bi-star
-                            .text-warning.fs-3.fs-md-2
-                                i.bi.bi-star
-        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
+                .row.g-4
+                    .col-12.col-md-12.col-lg-8 
+                        include components/articulo.pug
+                    .col-12.col-md-12.col-lg-4.ps-lg-4
+                        include components/comentario.pug
+                        include components/comentario.pug
+                        include components/comentario.pug
+                        .d-flex.justify-content-center.align-items-center.pt-2
+                            include icons/add.pug 
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js") 

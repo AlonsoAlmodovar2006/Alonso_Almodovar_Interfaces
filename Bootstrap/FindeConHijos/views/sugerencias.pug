@@ -9,10 +9,10 @@ html(lang="en")
         link(rel="stylesheet" href="../css/headers.css")
         link(rel="stylesheet" href="../css/styles.css") 
     body
-        header.d-flex.flex-wrap.justify-content-center.py-3.mb-4.border-bottom.bg-primary
+        header.fixed-top.d-flex.flex-wrap.justify-content-center.py-2.py-md-3.border-bottom.bg-primary.shadow-sm
             include icons/buscar.pug
             include components/header.pug 
-        main
+        main.pt-5.mt-5
             .container 
                 .row.g-4  
                     include components/imgEstrella.pug
