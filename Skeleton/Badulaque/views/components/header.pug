@@ -1,19 +1,16 @@
-.container 
-    .row 
-        .four.columns
+.container
+    .row.header-row
+        .four.columns.logo
             img(src="/assets/imgs/Logo.jpg", alt="betis" width="100px" height="100px")
-        .four.columns
-            input(type="text", name="buscar")
-        .four.columns
-            .container 
-                .row 
-                    .four.columns 
-                        .container 
-                            .row 
-                                .six.columns 
-                                    img(src="/assets/icon/iconoTlf.jpg", alt="betis" width="30px" height="30px")
-                                .six.columns 
-                                    p 695554741
-                    .four.columns 
-                    
-                    .four.columns 
+        .four.columns.buscar
+            input(type="text", name="buscar", placeholder="Buscar chuches...")
+        .four.columns.info
+            .row.iconos
+                .three.columns
+                    img(src="/assets/icon/telefono.jpg", alt="telefono" width="45px" height="40px")
+                .three.columns
+                    p 695554741
+                .three.columns
+                    img(src="/assets/icon/perfil.png", alt="perfil" width="45px" height="40px")
+                .three.columns
+                    img(src="/assets/icon/carrito.jpg", alt="carrito" width="45px" height="40px")
