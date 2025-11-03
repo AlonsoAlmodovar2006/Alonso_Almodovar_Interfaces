@@ -1,0 +1,46 @@
+$color-principal: #ff6fa2;
+$color-background: white;
+$color-texto: #333;
+
+body {
+    background-color: $color-background;
+}
+
+input[type="text"] {
+    border: 3px solid $color-principal;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: $color-principal;
+}
+
+p {
+    margin: 0;
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: $color-texto;
+}
+
+a {
+    color: $color-background;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1.5rem;
+}
+
+input {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: $color-principal;
+}
+
+.columns {
+    padding: 0;
+}

@@ -1,9 +1,8 @@
 .header-row {
   display: flex;
-  padding: 1.25rem 0;
+  padding: 1rem 0;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #fffefe;
   width: 100%;
   margin: 0;
 }
@@ -23,9 +22,7 @@
   width: 100%;
   max-width: 400px;
   padding: 2rem 2rem;
-  border: 3px solid #ff6fa2;
   border-radius: 30px;
-  font-size: 1.1rem;
 }
 .header-row .info {
   display: flex;
@@ -51,16 +48,4 @@
 }
 .header-row .info .iconos .columns img:hover {
   transform: scale(1.15);
-}
-.header-row .info .iconos .columns p {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #333;
-}
-
-.container {
-  width: 100%;
-  max-width: 100%;
-  padding: 0 1.5rem;
 }
