@@ -1,0 +1,51 @@
+.header-row {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+.header-row .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.header-row .buscar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.header-row .buscar input[type=text] {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem 2rem;
+  border-radius: 30px;
+}
+.header-row .info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-row .info .iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+.header-row .info .iconos .columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+.header-row .info .iconos .columns img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-row .info .iconos .columns img:hover {
+  transform: scale(1.15);
+}
