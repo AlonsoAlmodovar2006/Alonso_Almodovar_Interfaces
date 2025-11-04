@@ -7,6 +7,7 @@ html(lang="en")
         link(rel="stylesheet", href="/../styles/components/dist/header.css")
         link(rel="stylesheet", href="/../styles/components/dist/navbar.css")
         link(rel="stylesheet", href="/../styles/components/dist/footer.css")
+        link(rel="stylesheet", href="/../styles/components/dist/cards.css")
         link(rel="stylesheet", href="/../styles/dist/styles.css")
         title El Badulaque - Home
     body
@@ -14,5 +15,20 @@ html(lang="en")
             include components/header.pug 
             include components/navbar.pug 
         main 
+            include components/quienesSomos.pug
+            .row
+                .four.columns
+                    include components/cardProducto.pug
+                .four.columns
+                    include components/cardProducto.pug
+                .four.columns
+                    include components/cardProducto.pug
+            .row
+                .four.columns
+                    include components/cardProducto.pug
+                .four.columns
+                    include components/cardProducto.pug
+                .four.columns
+                    include components/cardProducto.pug 
         footer
             include components/footer.pug  
