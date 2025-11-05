@@ -1,0 +1,40 @@
+ul.nav_horizontal {
+  background-color: #ff6fa2;
+}
+ul.nav_horizontal li {
+  display: inline;
+}
+ul.nav_horizontal li a {
+  color: white;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0rem 7.5rem;
+  position: relative;
+}
+ul.nav_horizontal li:hover {
+  background-color: #ff1493;
+  transition: 0.4s;
+}
+
+ul.nav_vertical li {
+  display: block;
+}
+
+a {
+  color: #ca6438;
+}
+
+footer {
+  background-color: #ff6fa2;
+}
+footer p {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.7;
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+}

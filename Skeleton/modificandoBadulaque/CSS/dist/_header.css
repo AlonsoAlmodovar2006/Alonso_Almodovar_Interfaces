@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin: 0;
+}
+header .header-left {
+  display: flex;
+  align-items: center;
+}
+header .header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+header .header-center input {
+  margin: 0;
+  width: 57%;
+  max-width: 400px;
+  padding: 2rem 2rem;
+  border-radius: 30px;
+  border: 3px solid #ff6fa2;
+  font-size: 1.1rem;
+}
+header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header .header-right img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .header-right img:hover {
+  transform: scale(1.15);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    include cabecera
+</head>
+
+<body>
+    .container 
+        .row 
+            .twelve.columns 
+                header  
+                    .header-left
+                        img(src="/img/Logo.jpg", alt="betis", width="100px", height="100px")
+                    .header-center
+                        input(type="text", name="buscar", placeholder="Buscar chuches...")
+                    .header-right
+                        img(src="/img/telefono.jpg", alt="telefono", width="45px", height="40px")
+                        img(src="/img/perfil.png", alt="perfil", width="45px", height="40px")
+                        img(src="/img/carrito.jpg", alt="carrito", width="45px", height="40px")
+        .row 
+            .three.columns 
+                ul.nav_vertical
+                    li: a(href="/") Home
+                    li: a(href="/about") Productos
+                    li: a(href="/contact") Encargos
+                    li: a(href="/friends") Amigos
+            .nine.columns
+                h1 Main Content 
+        .row 
+            .twelve.columns 
+                footer  
+                    p &copy; 2025 Alonso Almodóvar - Interfaces
+</body>
+
+</html>
