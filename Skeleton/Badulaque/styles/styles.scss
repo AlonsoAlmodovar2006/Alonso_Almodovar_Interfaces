@@ -11,8 +11,9 @@ input[type="text"] {
     font-size: 1.1rem;
 }
 
-footer{
+footer {
     background-color: $color-principal;
+    margin-bottom: 0;
 }
 
 p {
@@ -20,11 +21,28 @@ p {
     font-size: 1.55rem;
     font-weight: 600;
     color: $color-texto;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-principal;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 a {
     color: $color-background;
     font-size: 1.1rem;
+
 }
 
 .container {
