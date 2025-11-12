@@ -28,7 +28,6 @@ ul.nav_vertical li {
 }
 ul.nav_vertical li a {
   color: white;
-  font-size: 2.15rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 600;
@@ -38,10 +37,6 @@ ul.nav_vertical li a {
 ul.nav_vertical li:hover {
   background-color: #ff1493;
   transition: 0.4s;
-}
-
-a {
-  color: rgb(202, 100, 56);
 }
 
 footer {

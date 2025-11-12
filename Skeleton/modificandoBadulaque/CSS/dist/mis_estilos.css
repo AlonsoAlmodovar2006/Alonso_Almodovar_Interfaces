@@ -5,7 +5,7 @@ ul.nav_horizontal li {
   display: inline;
 }
 ul.nav_horizontal li a {
-  color: white;
+  color: #ff6fa2;
   font-size: 1.75rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -28,7 +28,6 @@ ul.nav_vertical li {
 }
 ul.nav_vertical li a {
   color: white;
-  font-size: 2.15rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 600;
