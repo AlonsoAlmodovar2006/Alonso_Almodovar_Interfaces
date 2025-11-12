@@ -1,10 +1,10 @@
 footer {
-    background-color: #ff6fa2;
+    background-color: $color-principal;
     p{
         font-size: 1.75rem;
         font-weight: 600;
         line-height: 1.7;
-        color: white;
+        color: $color-letra;
         letter-spacing: 0.5px;
         text-align: center;
     }

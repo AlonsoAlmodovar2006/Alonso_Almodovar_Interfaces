@@ -1,11 +1,9 @@
 footer {
-  background-color: #ff6fa2;
-}
-footer p {
-  font-size: 1.75rem;
-  font-weight: 600;
-  line-height: 1.7;
-  color: white;
-  letter-spacing: 0.5px;
-  text-align: center;
+  background-color: p;
+  background-color-font-size: 1.75rem;
+  background-color-font-weight: 600;
+  background-color-line-height: 1.7;
+  background-color-color: white;
+  background-color-letter-spacing: 0.5px;
+  background-color-text-align: center;
 }

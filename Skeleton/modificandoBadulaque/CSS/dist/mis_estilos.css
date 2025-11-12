@@ -19,12 +19,25 @@ ul.nav_horizontal li:hover {
   transition: 0.4s;
 }
 
+ul.nav_vertical {
+  background-color: #ff6fa2;
+}
 ul.nav_vertical li {
   display: block;
+  padding: 0.75rem 1rem;
 }
-
-a {
-  color: #ca6438;
+ul.nav_vertical li a {
+  color: white;
+  font-size: 2.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+ul.nav_vertical li:hover {
+  background-color: #ff1493;
+  transition: 0.4s;
 }
 
 footer {
@@ -37,4 +50,42 @@ footer p {
   color: white;
   letter-spacing: 0.5px;
   text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin: 0;
+}
+header .header-left {
+  display: flex;
+  align-items: center;
+}
+header .header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+header .header-center input {
+  margin: 0;
+  width: 57%;
+  max-width: 400px;
+  padding: 2rem 2rem;
+  border-radius: 30px;
+  border: 3px solid #ff6fa2;
+  font-size: 1.1rem;
+}
+header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header .header-right img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .header-right img:hover {
+  transform: scale(1.15);
 }

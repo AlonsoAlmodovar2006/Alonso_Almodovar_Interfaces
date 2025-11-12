@@ -1,10 +1,10 @@
 ul.nav_horizontal {
-    background-color: #ff6fa2;
+    background-color: $color-principal;
     li {
         display: inline;
 
         a {
-            color: white;
+            color: $color-principal;
             font-size: 1.75rem;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -15,21 +15,21 @@ ul.nav_horizontal {
         }
 
         &:hover {
-            background-color: #ff1493;
+            background-color: $color-principal-hover;
             transition: 0.4s;
         }
     }
 }
 
 ul.nav_vertical {
-    background-color: #ff6fa2;
+    background-color: $color-principal;
 
     li {
         display: block;
         padding: 0.75rem 1rem;
 
         a {
-            color: white;
+            color: $color-letra;
             font-size: 2.15rem;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -39,7 +39,7 @@ ul.nav_vertical {
         }
 
         &:hover {
-            background-color: #ff1493;
+            background-color: $color-principal-hover;
             transition: 0.4s;
         }
     }
