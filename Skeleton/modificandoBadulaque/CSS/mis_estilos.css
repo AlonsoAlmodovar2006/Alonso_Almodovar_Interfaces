@@ -2,7 +2,9 @@ ul.nav_horizontal {
   background-color: #ff6fa2;
 }
 ul.nav_horizontal li {
-  display: inline;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0rem 7.5rem;
 }
 ul.nav_horizontal li a {
   color: white;
@@ -11,7 +13,6 @@ ul.nav_horizontal li a {
   letter-spacing: 0.5px;
   font-weight: 600;
   text-decoration: none;
-  padding: 0rem 7.5rem;
   position: relative;
 }
 ul.nav_horizontal li:hover {
