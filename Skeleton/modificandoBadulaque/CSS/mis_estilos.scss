@@ -3,3 +3,10 @@
 @import "_footer";
 @import "_header";
 @import "_card";
+
+@each $tam in (20, 40, 50, 70, 85) {
+    .h-#{$tam} {
+        max-height: #{$tam}vh;
+        overflow: scroll;
+    }
+}

@@ -102,6 +102,7 @@ header .header-right img:hover {
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
+  height: 250px;
 }
 .card .card-content {
   padding: 1.5rem;
@@ -114,4 +115,29 @@ header .header-right img:hover {
 .card .card-content p {
   font-size: 1.3rem;
   text-align: center;
+}
+
+.h-20 {
+  max-height: 20vh;
+  overflow: scroll;
+}
+
+.h-40 {
+  max-height: 40vh;
+  overflow: scroll;
+}
+
+.h-50 {
+  max-height: 50vh;
+  overflow: scroll;
+}
+
+.h-70 {
+  max-height: 70vh;
+  overflow: scroll;
+}
+
+.h-85 {
+  max-height: 85vh;
+  overflow: scroll;
 }/*# sourceMappingURL=mis_estilos.css.map */
