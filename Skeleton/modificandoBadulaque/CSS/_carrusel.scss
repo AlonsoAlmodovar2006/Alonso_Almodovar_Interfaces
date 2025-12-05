@@ -1,0 +1,27 @@
+.carrosuel {
+    width: 90%;
+    max-width: 120em;
+    background-color: lightskyblue;
+    .grande {
+        width: 200%;
+        background-color: orange;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        .img {
+            width: calc(100% / 2);
+            background-color: lime;
+        }
+    }
+    .puntos {
+        width: 100%;
+        background-color: red;
+        padding: 1em;
+        .punto {
+            width: 1em;
+            height: 1em;
+            background-color: blue;
+        }
+    }
+}
