@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Actividad 1
+        link(rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet" href="../assets/sass/dist/styles.css")
+    body
+        header.mb-3 
+            .container  
+                include components/navbar.html
+        main 
+            .container
+                .row.mb-4 
+                    .col-lg-8.col-md-8
+                        img.imagenGrande(src="../img/logo.jpg" class="img-fluid" alt="Imagen Grande")
+                    .col-lg-4.col-md-4
+                        h1.mb-4  Product Name 
+                        h3.mb-5  $ 120.99
+                        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis cum voluptatibus nobis eum, necessitatibus, sit culpa soluta unde, suscipit mollitia ratione! Maxime non repellat magnam in necessitatibus a aut atque?
+                .row
+                    .col-lg-2.col-md-2
+                        img(src="../img/logo.jpg" class="img-fluid" alt="Imagen Pequeña 1")
+                    .col-lg-2.col-md-2
+                        img(src="../img/logo.jpg" class="img-fluid" alt="Imagen Pequeña 2")
+                    .col-lg-2.col-md-2
+                        img(src="../img/logo.jpg" class="img-fluid" alt="Imagen Pequeña 3")
+                    .col-lg-2.col-md-2
+                        img(src="../img/logo.jpg" class="img-fluid" alt="Imagen Pequeña 4")
+                    .col-lg-4.col-md-4.align-self-end 
+                        button.bton.btn.btn-lg.btn-block(type="button") Add to bag 

@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+input[type=text] {
+  border: 3px solid #ff6fa2;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #ff6fa2;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.7;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff6fa2;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1.5rem;
+}
+
+input {
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #ff6fa2;
+}
+
+.columns {
+  padding: 0;
+}/*# sourceMappingURL=styles.css.map */
